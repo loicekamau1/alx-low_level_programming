@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - Entry point
  *
@@ -8,13 +6,15 @@
  */
 int main(void)
 
-{
-int digit;
 
-for (digit = 0 ; digit < 10; digit++)
 {
-printf("%digit", digit);
+int gt;
+
+for (gt = 0 ; gt < 10; gt++)
+{
+printf("%gt", gt);
 }
+
 
 printf("\n");
 
