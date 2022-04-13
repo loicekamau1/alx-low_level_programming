@@ -2,19 +2,17 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success/correct)
+ * Return: Always 0 (success/correct)
  */
 int main(void)
 
-
 {
-int gt;
+int i;
 
-for (gt = 0 ; gt < 10; gt++)
+for (i = 0 ; i < 10; i++)
 {
-printf("%gt", gt);
+printf("%i", i);
 }
-
 
 printf("\n");
 

@@ -5,13 +5,13 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Successes/correct)
+ * Return: Always 0 (Successs/correct)
  */
 
 int main(void)
 {
 int n;
-	
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 

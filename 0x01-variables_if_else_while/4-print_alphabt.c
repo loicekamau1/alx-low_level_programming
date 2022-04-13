@@ -5,9 +5,7 @@
  * Return: Always 0 (Success/correct)
  */
 
-
 int main(void)
-
 
 {
 char alphabet;
@@ -23,10 +21,8 @@ continue;
 putchar(alphabet);
 }
 
-
 putchar('\n');
 
 return (0);
-
 
 }
