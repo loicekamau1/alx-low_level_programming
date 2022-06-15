@@ -1,22 +1,22 @@
-#include <stdlib.h>
-#include "function_pointers.h"
+#include <stdio.h>
 
 /**
- * array_iterator - given asa parameter on each element of an array.
- * @array: int-pu array
- * @size: size of the array
- * @action: is a pointer to the function
- * Return: nothing
+ * array_iterator - executes funct
+ * @array: array of elements
+ * @size: array's size
+ * @action: pointer to function
+ * Return: No
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int i = 0;
+	unsigned int i;
 
-	if (array != 0 && size >= 1 && action != 0)
-		while (i < size)
+	if (array && size && action)
+	{
+		for (i = 0; i < size; i++)
 		{
-			action(array[i]);
-			i++;
+			(*action)(array[i]);
 		}
-
+	}
+}
